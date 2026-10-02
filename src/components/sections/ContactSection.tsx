@@ -182,9 +182,9 @@ export default function ContactSection() {
             <Image
               src="/Logo_whitetext.png"
               alt="LeadScorpio"
-              width={260}
-              height={96}
-              className="h-16 w-auto object-contain"
+              width={400}
+              height={148}
+              className="w-[500px] h-auto object-contain"
             />
             <span className="text-white/30 text-sm">© 2026. All rights reserved.</span>
           </div>
