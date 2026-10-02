@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, Globe, Mail, MessageSquare, Camera, Link } from "lucide-react";
+import Image from "next/image";
 
 export default function ContactSection() {
   return (
@@ -177,10 +178,15 @@ export default function ContactSection() {
       {/* Footer */}
       <div className="border-t border-white/8">
         <div className="max-w-7xl mx-auto px-6 md:px-10 py-12 flex flex-col md:flex-row items-center justify-between gap-8">
-          <div className="flex items-center gap-2.5">
-            <Globe size={18} className="text-[var(--color-brand-copper)]" />
-            <span className="font-bold text-white text-lg tracking-tighter">LeadScorpio</span>
-            <span className="text-white/30 text-sm ml-4">© 2026. All rights reserved.</span>
+          <div className="flex items-center gap-3">
+            <Image
+              src="/Logo_whitetext.png"
+              alt="LeadScorpio"
+              width={260}
+              height={96}
+              className="h-16 w-auto object-contain"
+            />
+            <span className="text-white/30 text-sm">© 2026. All rights reserved.</span>
           </div>
 
           <div className="flex items-center gap-8 text-sm text-white/40">

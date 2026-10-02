@@ -41,11 +41,11 @@ export default function Navbar() {
           {/* Logo */}
           <a href="#" className="flex items-center group">
             <Image
-              src="/logo.png"
+              src="/Logo_darktext.png"
               alt="LeadScorpio"
-              width={160}
-              height={60}
-              className="h-10 w-auto object-contain"
+              width={220}
+              height={80}
+              className="h-18 w-auto object-contain"
               priority
             />
           </a>

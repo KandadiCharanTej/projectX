@@ -18,7 +18,7 @@ const HeroOrb = dynamic(
   }
 );
 
-const CustomCursor   = dynamic(() => import("@/components/ui/CustomCursor").then(m => m.default),         { ssr: false });
+const CustomCursor   = dynamic(() => import("@/components/ui/CustomCursor").then(m => m.default),       { ssr: false });
 const Navbar         = dynamic(() => import("@/components/ui/Navbar").then(m => m.default),              { ssr: false });
 const ServicesSection    = dynamic(() => import("@/components/sections/ServicesSection").then(m => m.default),    { ssr: false });
 const HowItWorksSection  = dynamic(() => import("@/components/sections/HowItWorksSection").then(m => m.default),  { ssr: false });
