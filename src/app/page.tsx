@@ -44,7 +44,7 @@ function HeroSection() {
   const line1 = "Turn Your Ideal Customers Into".split(" ");
   const line2 = "Qualified Sales Conversations.".split(" ");
 
-  const wordVariants = {
+  const wordVariants: any = {
     hidden: { opacity: 0, y: 40, rotateX: -15 },
     visible: (i: number) => ({
       opacity: 1,
